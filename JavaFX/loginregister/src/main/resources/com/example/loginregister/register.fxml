@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.loginregister.RegisterController">
+    <children>
+        <VBox alignment="CENTER" spacing="10" AnchorPane.topAnchor="50" AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="50" AnchorPane.bottomAnchor="50">
+            <Label text="Register Page" styleClass="header"/>
+            <TextField fx:id="usernameField" promptText="Enter username"/>
+            <PasswordField fx:id="passwordField" promptText="Enter password"/>
+            <PasswordField fx:id="confirmPasswordField" promptText="Confirm password"/>
+            <Button fx:id="registerButton" text="Register" onAction="#handleRegister"/>
+            <Button fx:id="backButton" text="Back to Login" onAction="#goBack"/>
+            <Text fx:id="errorMessage" />
+        </VBox>
+    </children>
+</AnchorPane>
