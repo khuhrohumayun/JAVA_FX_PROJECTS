@@ -13,7 +13,7 @@ public class Record {
 
     private void initialize(int cnic, String name, int age, int contact, String address, String email, String mk, String md, String yr, String frm, String pd, int price) {
         frame = new JFrame();
-        frame.setBounds(100, 100, 500, 400);
+        frame.setBounds(100, 100, 400, 300);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.getContentPane().setLayout(null);
 
